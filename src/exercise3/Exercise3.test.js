@@ -29,6 +29,6 @@ describe('InfoCard', () => {
     it('should render a FontAwesome icon', () => {
         const infoCard = shallow(<InfoCard></InfoCard>);
 
-        expect(infoCard.find('FontAwesome')).toBeDefined();
+        expect(infoCard.find('FontAwesomeIcon')).toHaveLength(1);
     });
 });

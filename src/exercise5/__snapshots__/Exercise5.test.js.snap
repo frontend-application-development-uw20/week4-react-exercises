@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should not render children by default 1`] = `
+<div
+  className="Dropdown"
+>
+  <div
+    className="Dropdown__header"
+    onClick={[Function]}
+  >
+    header text
+  </div>
+</div>
+`;
+
+exports[`Dropdown should render children once the header is toggled 1`] = `
+<div
+  className="Dropdown"
+>
+  <div
+    className="Dropdown__header"
+    onClick={[Function]}
+  >
+    header text
+  </div>
+  <div
+    className="Dropdown__content"
+  >
+    <div
+      className="test-child"
+    >
+      test-child
+    </div>
+  </div>
+</div>
+`;

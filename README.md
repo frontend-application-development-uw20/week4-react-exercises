@@ -28,4 +28,4 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run test:1`
 
-Run the tests for a particular exercise (use these for exercises 1-3).
+Run the tests for a particular exercise

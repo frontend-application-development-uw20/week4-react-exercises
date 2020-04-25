@@ -36,6 +36,10 @@ export default class CoffeeCard extends React.Component {
 
         return (
             <div className="CoffeeCard">
+                {/* The className syntax here is BEM (Block Element Modifier syntax)
+                    You can read more about it here:
+                    http://getbem.com/naming/
+                */}
                 <img
                     className="CoffeeCard__image"
                     src={this.getCoffeeImage()}

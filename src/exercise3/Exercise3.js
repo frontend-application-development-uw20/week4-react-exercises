@@ -20,7 +20,7 @@ export default class Exercise3 extends React.Component {
                     <br />No need to define it in <code>propTypes</code> or define it explicitly, it's there for you!
                 </p>
                 <ol>
-                    <li>In the file <code>InfoCard.js</code>, create a component that renders an info icon. You can use <a href="https://fontawesome.com/icons?d=gallery&q=info" target="_blank" rel="noopener noreferrer">FontAwesome icons</a> and set them up with React using <a href="https://fontawesome.com/how-to-use/on-the-web/using-with/react" target="_blank" rel="noopener noreferrer">these instructions.</a> Replace <code>faStroopwafel</code> with the name of the icon you want to import (e.g. <code>faInfoCircle</code>).
+                    <li>In the file <code>InfoCard.js</code>, create a component that renders an info icon. You can use <a href="https://fontawesome.com/icons?d=gallery&q=info" target="_blank" rel="noopener noreferrer">FontAwesome icons</a> and set them up with React using <a href="https://github.com/FortAwesome/react-fontawesome#explicit-import" target="_blank" rel="noopener noreferrer">these instructions.</a> Replace <code>faCoffee</code> with the name of the icon you want to import (e.g. <code>faInfoCircle</code>).
                     </li>
                     <li>Make the component generic, where you can pass in whatever you want to the card (see code block above for an example).</li>
                     <li>When passing <code>children</code> into the component, the component should display the info icon next to the children.</li>

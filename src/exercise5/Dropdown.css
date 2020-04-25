@@ -1,0 +1,12 @@
+.Dropdown {}
+
+.Dropdown__header {
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.Dropdown__content {
+    padding: 10px;
+    background-color: lightcyan;
+    border: 1px solid lightblue;
+}
