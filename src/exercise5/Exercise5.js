@@ -1,4 +1,5 @@
 import React from 'react';
+import Dropdown from './Dropdown';
 
 export default class Exercise5 extends React.Component {
     render() {
@@ -14,6 +15,9 @@ export default class Exercise5 extends React.Component {
                     <li>Add a click handler called <code>toggleDropdown</code> that makes the content hide/show on click.</li>
                     <li>Ensure that the corresponding tests pass.</li>
                 </ol>
+                <Dropdown header="Title">
+                    Description
+                </Dropdown>
             </div>
         )
     }

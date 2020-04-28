@@ -1,0 +1,9 @@
+.InfoCard {
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+.InfoCard__icon {
+    color: rgb(17, 17, 184);
+    margin-right: 5px;
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoffeeCard should render 1`] = `
+<div
+  className="CoffeeCard"
+>
+  <img
+    alt="mocha"
+    className="CoffeeCard__image"
+    src="https://upload.wikimedia.org/wikipedia/commons/7/79/Mocha.jpg"
+  />
+  <h3
+    className="CoffeeCard__title"
+  >
+    Mocha
+  </h3>
+  <p
+    className="CoffeeCard__description"
+  >
+    Cost: $
+    3.00
+  </p>
+</div>
+`;
